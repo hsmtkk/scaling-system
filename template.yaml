@@ -10,3 +10,12 @@ Resources:
       Runtime: python3.9
       Architectures:
         - x86_64
+
+  ColorPicker:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: color_picker/
+      Handler: app.lambda_handler
+      Runtime: python3.9
+      Architectures:
+        - x86_64
