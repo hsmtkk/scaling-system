@@ -19,4 +19,22 @@ manifest_hash = ""
 packagetype = "Zip"
 functions = ["ColorPicker"]
 
+[function_build_definitions.8722a59b-cfcf-4d52-9c01-22452f951053]
+codeuri = "C:\\Users\\kouki\\repo\\scaling-system\\trivia"
+runtime = "python3.9"
+architecture = "x86_64"
+handler = "lambda_function.lambda_handler"
+manifest_hash = ""
+packagetype = "Zip"
+functions = ["Trivia"]
+
+[function_build_definitions.b879ae75-2be3-43a4-9f33-1117d1983fb4]
+codeuri = "C:\\Users\\kouki\\repo\\scaling-system\\city_guide"
+runtime = "python3.9"
+architecture = "x86_64"
+handler = "lambda_function.lambda_handler"
+manifest_hash = ""
+packagetype = "Zip"
+functions = ["CityGuide"]
+
 [layer_build_definitions]
