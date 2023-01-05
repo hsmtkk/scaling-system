@@ -37,4 +37,13 @@ manifest_hash = ""
 packagetype = "Zip"
 functions = ["CityGuide"]
 
+[function_build_definitions.de757510-96c0-4ced-9bd6-4af6d7d6816a]
+codeuri = "C:\\Users\\kouki\\repo\\scaling-system\\pet_match"
+runtime = "python3.9"
+architecture = "x86_64"
+handler = "lambda_function.lambda_handler"
+manifest_hash = ""
+packagetype = "Zip"
+functions = ["PetMatch"]
+
 [layer_build_definitions]
